@@ -10,11 +10,12 @@ function Binary(binary) {
         this.binary = '';
     }
 }
-//Returns binary number from integer number
+//Sets this.binary value from decimal number
 Binary.prototype = {
-    toBinary: function (int_value) {
+    decToBinary: function (int_value) {
         var new_binary='';
         var i=0;
+        int_value=parseInt(int_value);
         while (int_value !=0) {
             var r;
             r = int_value % 2;
@@ -25,6 +26,9 @@ Binary.prototype = {
         }
         new_binary+='0';
         new_binary=new_binary.split("").reverse().join("");
-        return new_binary;
+        this.binary=new_binary;
+    },
+    binToDecimal:function(bin_value){
+
     }
 };
