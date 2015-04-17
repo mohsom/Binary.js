@@ -35,3 +35,4 @@ Binary.prototype = {
         return int;
     }
 };
+var _Binary=new Binary();
