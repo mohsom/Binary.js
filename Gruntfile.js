@@ -5,15 +5,16 @@ module.exports = function (grunt) {
             all: ['src/*.js']
         },
         uglify: {
-            my_target: {
-                files: {
-                    'build/Binary.min.js': ['src/Binary_.js']
-                }
+            options: {
+                mangle: false
+            },
+            files: {
+                'build/Binary.min.js': ['src/Binary_.js']
             }
         }
     });
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-jshint');
-    grunt.registerTask('build', ['jshint','uglify']);
+    grunt.registerTask('build', ['jshint', 'uglify']);
 };
 
