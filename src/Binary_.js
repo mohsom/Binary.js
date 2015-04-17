@@ -10,8 +10,8 @@ function Binary(binary) {
         this.binary = '';
     }
 }
-//Sets this.binary value from decimal number
 Binary.prototype = {
+    //Sets this.binary value from decimal number system value
     decToBinary: function (int_value) {
         var new_binary = '';
         var i = 0;
@@ -28,6 +28,7 @@ Binary.prototype = {
         new_binary = new_binary.split("").reverse().join("");
         this.binary = new_binary;
     },
+    //Return this.binery value in decimal number system
     binToDecimal: function () {
         var bin = this.binary;
         var int = 0;
