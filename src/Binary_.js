@@ -11,6 +11,14 @@ function Binary(binary) {
     }
 }
 Binary.prototype = {
+    //Set this.binary
+    set:function(value){
+      this.binary=value;
+    },
+    //Get this.binary
+    get:function(){
+      return this.binary;
+    },
     //Sets this.binary value from decimal number system value
     decToBinary: function (int_value) {
         var new_binary = '';
