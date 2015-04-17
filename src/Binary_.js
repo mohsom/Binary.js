@@ -10,6 +10,7 @@ function Binary(binary) {
         this.binary = '';
     }
 }
+//Returns binary number from integer number
 Binary.prototype = {
     toBinary: function (int_value) {
         var new_binary='';
@@ -27,6 +28,3 @@ Binary.prototype = {
         return new_binary;
     }
 };
-var a=new Binary();
-var b=a.toBinary(3);
-console.log(b);
