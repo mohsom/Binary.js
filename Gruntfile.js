@@ -5,11 +5,13 @@ module.exports = function (grunt) {
             all: ['src/*.js']
         },
         uglify: {
-            options: {
-                mangle: false
-            },
-            files: {
-                'build/Binary.min.js': ['src/Binary_.js']
+            target: {
+                options: {
+                    mangle: false
+                },
+                files: {
+                    'build/Binary.min.js': ['src/Binary_.js']
+                }
             }
         }
     });
