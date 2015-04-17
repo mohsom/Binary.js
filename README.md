@@ -12,6 +12,7 @@ console.log(a); //"011"
 </code>
 <h3>_Binary.binToDecimal()</h3>
 Converts the binary number system value to decimal number system value.
+<br>
 <code>
 var a=_Binary.binToDecimal("011");
 console.log(a); //3
