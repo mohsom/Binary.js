@@ -1,0 +1,10 @@
+{
+  "name": "binary.js",
+  "version": "0.0.1",
+  "dependencies":
+  {
+    "grunt":"latest",
+    "grunt-contrib-uglify":"latest",
+    "grunt-contrib-jshint": "latest"
+  }
+}
