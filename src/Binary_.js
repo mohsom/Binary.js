@@ -29,6 +29,13 @@ Binary.prototype = {
         this.binary=new_binary;
     },
     binToDecimal:function(bin_value){
-
+        var bin=this.binary;
+        var int=0;
+        var j=bin.length-1;
+        for(var i=0;i<bin.length;i++){
+            int+=Math.pow(2, j)*bin[i];
+            j--;
+        }
+        return int;
     }
 };
