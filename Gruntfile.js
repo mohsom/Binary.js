@@ -7,7 +7,7 @@ module.exports = function (grunt) {
         uglify: {
             my_target: {
                 files: {
-                    'build/Binary.min.js': ['src/Binary.js']
+                    'build/Binary.min.js': ['src/Binary_.js']
                 }
             }
         }
