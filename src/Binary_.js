@@ -6,4 +6,7 @@ function Binary(binary){
     if(binary) {
         this.binary = binary;
     }
+    else{
+        this.binary='';
+    }
 }
