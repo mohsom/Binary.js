@@ -1,7 +1,7 @@
 # Binary.js 
 Small library for working with binary number system numbers. 
 #Documentation
-_Binary object contains all the Binary class methods for working with binary number system numbers.
+_Binary object contains all the Binary prototype methods for working with binary number system numbers.
 <br>
 <h3>_Binary.decToBinary(int_value)</h3>
 Converts the decimal number system value to binary number system value.
