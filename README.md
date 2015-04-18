@@ -5,6 +5,14 @@ You can install Binary.js via Bower, just run this command in your terminal:<br>
 <code>
 $ bower install Binary.js
 </code>
+<br>
+Or you can download Binary.js files from Google Drive: <br>
+Binary_.js file:<br>
+<code>https://drive.google.com/file/d/0B7RsSAVShgJcV285dHJ4UjdQazg/view?usp=sharing</code>
+<br>
+Binary.min.js file:<br>
+<code>https://drive.google.com/file/d/0B7RsSAVShgJcYjlWalRGZ1FWRlk/view?usp=sharing</code>
+<br>
 #Documentation
 _Binary object contains all the Binary prototype methods for working with binary number system numbers.
 <br>
