@@ -1,5 +1,10 @@
-# Binary.js 
+#Binary.js 
 Small library for working with binary number system numbers. 
+#Install
+You can install Binary.js via Bower:<br>
+<code>
+$bower install Binary.js
+</code>
 #Documentation
 _Binary object contains all the Binary prototype methods for working with binary number system numbers.
 <br>
