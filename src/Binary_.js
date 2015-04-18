@@ -33,6 +33,14 @@ Binary.prototype = {
             j--;
         }
         return int;
+    },
+    //Adding a binary numbers
+    sumBinary:function(bin1,bin2)
+    {
+        var int1=_Binary.binToDecimal(bin1);
+        var int2=_Binary.binToDecimal(bin2);
+        var sum=int1+int2;
+        return _Binary.decToBinary(sum);
     }
 };
 var _Binary=new Binary();
