@@ -18,7 +18,7 @@ var a=_Binary.binToDecimal("011");
 console.log(a); //3
 </code>
 <h3>_Binary.sum(bin_value1,bin_value2)</h3>
-Sums two binary number system numbers.<br>
+Sum two binary number system numbers.<br>
 <code>
 var a=_Binary.sum("011","011");
 a=_Binary.binToDecimal(a); //6
