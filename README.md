@@ -20,14 +20,14 @@ Or you can download <strong>Binary.js</strong> files from <strong>Google Drive</
 <br>
 <h2>a) Converting numbers</h2>
 <h3>_Binary.decToBinary(int_value)</h3>
-Converts the decimal number system value to binary number system value.
+Converts the decimal number system number to binary number system number.
 <br>
 <code>
 var a=_Binary.decToBinary(3);
 console.log(a); //"011"
 </code>
 <h3>_Binary.binToDecimal(bin_value)</h3>
-Converts the binary number system value to decimal number system value.
+Converts the binary number system number to decimal number system number.
 <br>
 <code>
 var a=_Binary.binToDecimal("011");
