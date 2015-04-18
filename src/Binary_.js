@@ -11,6 +11,7 @@ Binary.prototype = {
         var new_binary = '';
         var i = 0;
         int_value = parseInt(int_value);
+        int_value=int_value<0?-1*int_value:int_value;
         while (int_value !== 0) {
             var r;
             r = int_value % 2;
