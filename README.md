@@ -20,7 +20,7 @@ console.log(a); //3
 </code>
 <h2>b) Arithmetic operations</h2>
 <h3>_Binary.sum(bin_value1,bin_value2)</h3>
-Sum<br>
+Sum.<br>
 <code>
 var a=_Binary.sum("011","011");
 a=_Binary.binToDecimal(a); //6
