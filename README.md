@@ -23,7 +23,7 @@ Sums two binary number system numbers.<br>
 var a=_Binary.sum("011","011");
 a=_Binary.binToDecimal(a); //6
 </code>
-<h3>_Binary.sum(bin_value1,bin_value2)</h3>
+<h3>_Binary.subt(bin_value1,bin_value2)</h3>
 Subtract two binary number system numbers.<br>
 <code>
 var a=_Binary.subt("011","011");
