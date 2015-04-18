@@ -1,9 +1,9 @@
 #Binary.js 
 Small library for working with binary number system numbers. 
 #Install
-You can install Binary.js via Bower:<br>
+You can install Binary.js via Bower, just run this command in your terminal:<br>
 <code>
-$bower install Binary.js
+$ bower install Binary.js
 </code>
 #Documentation
 _Binary object contains all the Binary prototype methods for working with binary number system numbers.
