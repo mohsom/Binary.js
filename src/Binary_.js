@@ -35,12 +35,37 @@ Binary.prototype = {
         return int;
     },
     //Adding a binary numbers
-    sumBinary:function(bin1,bin2)
+    sum:function(bin1,bin2)
     {
         var int1=_Binary.binToDecimal(bin1);
         var int2=_Binary.binToDecimal(bin2);
         var sum=int1+int2;
         return _Binary.decToBinary(sum);
+    },
+    //Subtraction of a binary number system numbers
+    subt:function(bin1,bin2)
+    {
+        var int1=_Binary.binToDecimal(bin1);
+        var int2=_Binary.binToDecimal(bin2);
+        var sum=int1-int2;
+        return _Binary.decToBinary(sum);
+    },
+    //Multiplication a binary numbers
+    mult:function(bin1,bin2)
+    {
+        var int1=_Binary.binToDecimal(bin1);
+        var int2=_Binary.binToDecimal(bin2);
+        var sum=int1*int2;
+        return _Binary.decToBinary(sum);
+    },
+    //Division of a binary number system numbers
+    divis:function(bin1,bin2)
+    {
+        var int1=_Binary.binToDecimal(bin1);
+        var int2=_Binary.binToDecimal(bin2);
+        var sum=int1/int2;
+        sum=parseInt(sum.toString());
+        return _Binary.decToBinary(sum);
     }
 };
-var _Binary=new Binary(); 
+var _Binary=new Binary();
