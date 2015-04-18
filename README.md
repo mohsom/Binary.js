@@ -6,11 +6,13 @@ You can install <strong>Binary.js</strong> via <strong>Bower</strong>, just run 
 $ bower install Binary.js
 </code>
 <br>
+<br>
 Or you can download <strong>Binary.js</strong> files from <strong>Google Drive</strong>: <br>
-<strong>Binary_.js</strong> file:<br>
+<strong>Binary_.js</strong><br>
 <code>https://drive.google.com/file/d/0B7RsSAVShgJcV285dHJ4UjdQazg/view?usp=sharing</code>
 <br>
-<strong>Binary.min.js</strong> file:<br>
+<br>
+<strong>Binary.min.js</strong><br>
 <code>https://drive.google.com/file/d/0B7RsSAVShgJcYjlWalRGZ1FWRlk/view?usp=sharing</code>
 <br>
 #Documentation
