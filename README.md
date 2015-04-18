@@ -1,16 +1,16 @@
 #Binary.js 
 Small library for working with binary number system numbers. 
 #Install
-You can install Binary.js via Bower, just run this command in your terminal:<br>
+You can install <strong>Binary.js</strong> via <strong>Bower</strong>, just run this command in your terminal:<br>
 <code>
 $ bower install Binary.js
 </code>
 <br>
-Or you can download Binary.js files from Google Drive: <br>
-Binary_.js file:<br>
+Or you can download <strong>Binary.js</strong> files from <strong>Google Drive</strong>: <br>
+<strong>Binary_.js</strong> file:<br>
 <code>https://drive.google.com/file/d/0B7RsSAVShgJcV285dHJ4UjdQazg/view?usp=sharing</code>
 <br>
-Binary.min.js file:<br>
+<strong>Binary.min.js</strong> file:<br>
 <code>https://drive.google.com/file/d/0B7RsSAVShgJcYjlWalRGZ1FWRlk/view?usp=sharing</code>
 <br>
 #Documentation
