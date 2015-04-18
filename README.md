@@ -18,14 +18,26 @@ var a=_Binary.binToDecimal("011");
 console.log(a); //3
 </code>
 <h3>_Binary.sum(bin_value1,bin_value2)</h3>
-Sum two binary number system numbers.<br>
+Sum of two binary number system numbers.<br>
 <code>
 var a=_Binary.sum("011","011");
 a=_Binary.binToDecimal(a); //6
 </code>
 <h3>_Binary.subt(bin_value1,bin_value2)</h3>
-Subtract two binary number system numbers.<br>
+Subtraction of two binary number system numbers.<br>
 <code>
 var a=_Binary.subt("011","011");
 a=_Binary.binToDecimal(a); //0
+</code>
+<h3>_Binary.mult(bin_value1,bin_value2)</h3>
+Multiplication of two binary number system numbers.<br>
+<code>
+var a=_Binary.mult("011","011");
+a=_Binary.binToDecimal(a); //9
+</code>
+<h3>_Binary.divis(bin_value1,bin_value2)</h3>
+Division of two binary number system numbers.<br>
+<code>
+var a=_Binary.subt("011","011");
+a=_Binary.binToDecimal(a); //1
 </code>
