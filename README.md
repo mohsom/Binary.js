@@ -4,7 +4,7 @@ Small library for working with binary number system numbers.
 _Binary object contains all the Binary prototype methods for working with binary number system numbers.
 <br>
 <h2>Converting the binary number system number to decimal number system number and vice versa.</h2>
-<hr>
+<br>
 <h3>_Binary.decToBinary(int_value)</h3>
 Converts the decimal number system value to binary number system value.
 <br>
@@ -20,7 +20,7 @@ var a=_Binary.binToDecimal("011");
 console.log(a); //3
 </code>
 <h2>Arithmetic operations</h2>
-<hr>
+<br>
 <h3>_Binary.sum(bin_value1,bin_value2)</h3>
 Sum<br>
 <code>
