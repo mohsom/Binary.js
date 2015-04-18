@@ -3,7 +3,7 @@ Small library for working with binary number system numbers.
 #Documentation
 _Binary object contains all the Binary prototype methods for working with binary number system numbers.
 <br>
-<h2>a)Converting the binary number system number to decimal number system number and vice versa.</h2>
+<h2>a) Converting the binary number system number to decimal number system number and vice versa.</h2>
 <h3>_Binary.decToBinary(int_value)</h3>
 Converts the decimal number system value to binary number system value.
 <br>
