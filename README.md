@@ -16,7 +16,7 @@ Or you can download <strong>Binary.js</strong> files from <strong>Google Drive</
 <code>https://drive.google.com/file/d/0B7RsSAVShgJcYjlWalRGZ1FWRlk/view?usp=sharing</code>
 <br>
 #Documentation
-_Binary object contains all the Binary prototype methods for working with binary number system numbers.
+<strong>_Binary</strong> object contains all the <strong>Binary.prototype</strong> methods for working with binary number system numbers.
 <br>
 <h2>a) Converting numbers</h2>
 <h3>_Binary.decToBinary(int_value)</h3>
