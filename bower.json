@@ -1,0 +1,20 @@
+{
+  "name": "Binary.js",
+  "version": "0.5.0",
+  "homepage": "https://github.com/mohsom/binary.js",
+  "authors": [
+    "mohsom <volodya.skalskyi@gmail.com>"
+  ],
+  "description": "Small library for working with binary number system numbers.",
+  "keywords": [
+    "Binary",
+    "numbers",
+    "sum",
+    "division",
+    "multiplication",
+    "substraction",
+    "converting",
+    "numbers"
+  ],
+  "license": "MIT"
+}
