@@ -43,4 +43,4 @@ Binary.prototype = {
         return _Binary.decToBinary(sum);
     }
 };
-var _Binary=new Binary();
+var _Binary=new Binary(); 
